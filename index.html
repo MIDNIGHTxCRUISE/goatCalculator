@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Goat Seller Fee Calc</title>
+    <h1 id="h1">GOAT SELLER FEE CALC</h1>
+    <link rel="stylesheet" type="text/css" media="screen" href="./style.css" />
+  </head>
+  <body id="body">
+    <div class="goat">
+      <img src="./goatPic.jpeg" height="300" width="300" />
+    </div>
+
+    <form id="addForm" class="form">
+      <table>
+        <tr id="toprow">
+          <th>Purchase Price</th>
+          <th>Sale Amount</th>
+          <th>Profit/Loss</th>
+          <th>Calculate</th>
+        </tr>
+        <tr>
+          <td>
+            <input
+              class="purchase"
+              id="purchase"
+              type="text"
+              name="purchaseform"
+              form="my_form"
+            />
+          </td>
+          <td>
+            <input
+              class="saleAmt"
+              id="sale"
+              type="text"
+              name="saleform"
+              form="my_form"
+            />
+          </td>
+          <td id="profits">
+            <output class="profit" id="profit" type="text"></output>
+          </td>
+          <td>
+            <input type="submit" class="calculate" value="Submit" />
+          </td>
+        </tr>
+      </table>
+    </form>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

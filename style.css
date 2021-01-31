@@ -1,0 +1,36 @@
+h1 {
+  text-align: center;
+}
+
+.profit {
+  font-size: large;
+  font-weight: 1000;
+}
+
+table {
+  margin-left: 250px;
+  margin: auto;
+  margin-top: 25px;
+  width: 800px;
+  height: 150px;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+th {
+  text-align: center;
+}
+
+.goat {
+  text-align: center;
+}
+
+.calculate {
+  color: rgb(71, 185, 71);
+}
